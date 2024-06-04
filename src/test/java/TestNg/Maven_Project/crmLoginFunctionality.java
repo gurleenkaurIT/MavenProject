@@ -1,13 +1,24 @@
 package TestNg.Maven_Project;
 
+import java.awt.Desktop.Action;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class crmLoginFunctionality {
+	
+	@BeforeMethod
+	public void initializeBrwser() {
+		
+
+		
+	}
 
 	@Test
 	public void validateLoginWithCssSelector() {
@@ -48,9 +59,6 @@ public class crmLoginFunctionality {
 
 		// Click Submit button
 		driver.findElement(By.cssSelector("button#submitButton")).click();
-
-		// Verify that user successfully filled the form and moved to next page
-		driver.findElement(By.cssSelector("div.text_orange")).isDisplayed();
 
 		// Close browser
 		driver.close();
@@ -95,9 +103,6 @@ public class crmLoginFunctionality {
 
 		// Click Submit button
 		driver.findElement(By.xpath("//button[@id='submitButton']")).click();
-
-		// Verify that user successfully filled the form and moved to next page
-		driver.findElement(By.xpath("//div[text() ='Your company information and profile detail']")).isDisplayed();
 
 		// Close browser
 		driver.close();

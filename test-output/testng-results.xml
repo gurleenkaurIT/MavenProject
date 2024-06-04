@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-03T18:11:50 GMT-04:00" name="Default suite" finished-at="2024-06-03T18:12:02 GMT-04:00" duration-ms="12329">
+  <suite started-at="2024-06-03T19:03:36 GMT-04:00" name="Default suite" finished-at="2024-06-03T19:03:48 GMT-04:00" duration-ms="12049">
     <groups>
     </groups>
-    <test started-at="2024-06-03T18:11:50 GMT-04:00" name="Default test" finished-at="2024-06-03T18:12:02 GMT-04:00" duration-ms="12329">
+    <test started-at="2024-06-03T19:03:36 GMT-04:00" name="Default test" finished-at="2024-06-03T19:03:48 GMT-04:00" duration-ms="12049">
       <class name="TestNg.Maven_Project.crmLoginFunctionality">
-        <test-method signature="validateLoginWithCssSelector()[pri:0, instance:TestNg.Maven_Project.crmLoginFunctionality@2c1b194a]" started-at="2024-06-03T18:11:50 GMT-04:00" name="validateLoginWithCssSelector" finished-at="2024-06-03T18:11:56 GMT-04:00" duration-ms="5937" status="PASS">
+        <test-method signature="validateLoginWithCssSelector()[pri:0, instance:TestNg.Maven_Project.crmLoginFunctionality@2c1b194a]" started-at="2024-06-03T19:03:36 GMT-04:00" name="validateLoginWithCssSelector" finished-at="2024-06-03T19:03:43 GMT-04:00" duration-ms="6813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginWithCssSelector -->
-        <test-method signature="validateLoginWithXpath()[pri:0, instance:TestNg.Maven_Project.crmLoginFunctionality@2c1b194a]" started-at="2024-06-03T18:11:56 GMT-04:00" name="validateLoginWithXpath" finished-at="2024-06-03T18:12:02 GMT-04:00" duration-ms="6357" status="PASS">
+        <test-method signature="validateLoginWithXpath()[pri:0, instance:TestNg.Maven_Project.crmLoginFunctionality@2c1b194a]" started-at="2024-06-03T19:03:43 GMT-04:00" name="validateLoginWithXpath" finished-at="2024-06-03T19:03:48 GMT-04:00" duration-ms="5201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginWithXpath -->
