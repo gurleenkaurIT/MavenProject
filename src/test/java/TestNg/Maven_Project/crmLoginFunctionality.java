@@ -12,20 +12,17 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class crmLoginFunctionality {
-	
+
+	WebDriver driver;
+
 	@BeforeMethod
 	public void initializeBrwser() {
-		
-
-		
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
 	}
 
 	@Test
 	public void validateLoginWithCssSelector() {
-
-		WebDriverManager.chromedriver().setup();
-
-		WebDriver driver = new ChromeDriver();
 
 		// Load application URL
 		driver.get("https://classic.freecrm.com/register");
