@@ -2,20 +2,36 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-03T19:03:36 GMT-04:00" name="Default suite" finished-at="2024-06-03T19:03:48 GMT-04:00" duration-ms="12049">
+  <suite started-at="2024-06-10T16:56:39 GMT-04:00" name="Default suite" finished-at="2024-06-10T16:58:11 GMT-04:00" duration-ms="91729">
     <groups>
     </groups>
-    <test started-at="2024-06-03T19:03:36 GMT-04:00" name="Default test" finished-at="2024-06-03T19:03:48 GMT-04:00" duration-ms="12049">
-      <class name="TestNg.Maven_Project.crmLoginFunctionality">
-        <test-method signature="validateLoginWithCssSelector()[pri:0, instance:TestNg.Maven_Project.crmLoginFunctionality@2c1b194a]" started-at="2024-06-03T19:03:36 GMT-04:00" name="validateLoginWithCssSelector" finished-at="2024-06-03T19:03:43 GMT-04:00" duration-ms="6813" status="PASS">
+    <test started-at="2024-06-10T16:56:39 GMT-04:00" name="Default test" finished-at="2024-06-10T16:58:11 GMT-04:00" duration-ms="91729">
+      <class name="TestNg.Maven_Project.OrderConfirmationFunctionality">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:TestNg.Maven_Project.OrderConfirmationFunctionality@a776e]" started-at="2024-06-10T16:56:39 GMT-04:00" name="setUpBrowser" finished-at="2024-06-10T16:56:45 GMT-04:00" duration-ms="5605" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginWithCssSelector -->
-        <test-method signature="validateLoginWithXpath()[pri:0, instance:TestNg.Maven_Project.crmLoginFunctionality@2c1b194a]" started-at="2024-06-03T19:03:43 GMT-04:00" name="validateLoginWithXpath" finished-at="2024-06-03T19:03:48 GMT-04:00" duration-ms="5201" status="PASS">
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="validateAddToCart()[pri:0, instance:TestNg.Maven_Project.OrderConfirmationFunctionality@a776e]" started-at="2024-06-10T16:56:45 GMT-04:00" name="validateAddToCart" finished-at="2024-06-10T16:57:24 GMT-04:00" duration-ms="38761" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginWithXpath -->
-      </class> <!-- TestNg.Maven_Project.crmLoginFunctionality -->
+        </test-method> <!-- validateAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNg.Maven_Project.OrderConfirmationFunctionality@a776e]" started-at="2024-06-10T16:57:24 GMT-04:00" name="tearDown" finished-at="2024-06-10T16:57:24 GMT-04:00" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:TestNg.Maven_Project.OrderConfirmationFunctionality@a776e]" started-at="2024-06-10T16:57:24 GMT-04:00" name="setUpBrowser" finished-at="2024-06-10T16:57:28 GMT-04:00" duration-ms="4089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="validateProductCheckOut()[pri:0, instance:TestNg.Maven_Project.OrderConfirmationFunctionality@a776e]" started-at="2024-06-10T16:57:28 GMT-04:00" name="validateProductCheckOut" finished-at="2024-06-10T16:58:11 GMT-04:00" depends-on-methods="TestNg.Maven_Project.OrderConfirmationFunctionality.validateAddToCart" duration-ms="42293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductCheckOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNg.Maven_Project.OrderConfirmationFunctionality@a776e]" started-at="2024-06-10T16:58:11 GMT-04:00" name="tearDown" finished-at="2024-06-10T16:58:11 GMT-04:00" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNg.Maven_Project.OrderConfirmationFunctionality -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
